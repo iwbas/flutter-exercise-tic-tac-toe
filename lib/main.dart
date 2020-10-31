@@ -105,10 +105,6 @@ class _HomePageState extends State<HomePage> {
         return;
       }
 
-      if (marked == gameField.length) {
-        gameStopped = true;
-        return;
-      }
       oIsNext = !oIsNext;
       marked++;
     });
